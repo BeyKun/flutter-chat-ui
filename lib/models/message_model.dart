@@ -64,18 +64,18 @@ List<Message> chats = [
 
 // Example chats in chat screen
 List<Message> messages = [
-  Message(
+    Message(
+      sender: currentUser,
+      time: '5:36 PM',
+      text: "Aamiin",
+      isLiked: true,
+      unread: true
+    ),
+    Message(
     sender: yui,
     time: '5:30 PM',
-    text: "Mamah kemana?",
+    text: "Semoga mamah cepet sadar :')",
     isLiked: true,
-    unread: false
-  ),
-  Message(
-    sender: suya,
-    time: '5:35 PM',
-    text: "Engga tau kak",
-    isLiked: false,
     unread: false
   ),
   Message(
@@ -84,6 +84,13 @@ List<Message> messages = [
     text: "Mungkin nanti pada saatnya mamah pulang",
     isLiked: true,
     unread: true
+  ),
+  Message(
+    sender: yui,
+    time: '5:30 PM',
+    text: "Mamah kemana?",
+    isLiked: true,
+    unread: false
   ),
   Message(
     sender: haruka,

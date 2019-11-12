@@ -21,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Colors.white,
           onPressed: () {},
         ),
+        centerTitle: true,
         title: Text(
           'Chats',
           style: TextStyle(

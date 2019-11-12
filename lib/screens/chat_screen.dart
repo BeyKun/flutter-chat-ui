@@ -28,7 +28,7 @@ _buildMessage(Message message, bool isMe){
             topRight: Radius.circular(15.0)
           )
         ) : BoxDecoration(
-          color: Color(0xFFFFEFEE),
+          color: Color(0xFFe4f1fe),
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(15.0),
             topRight: Radius.circular(15.0),
@@ -67,7 +67,7 @@ _buildMessage(Message message, bool isMe){
       IconButton(
         icon: message.isLiked ? Icon(Icons.favorite) : Icon(Icons.favorite_border),
         iconSize: 30.0,
-        color: message.isLiked ? Theme.of(context).primaryColor : Colors.blueGrey,
+        color: message.isLiked ? Colors.red : Colors.blueGrey,
         onPressed: () {},
       ),
     ],
@@ -115,10 +115,11 @@ _buildMessage(Message message, bool isMe){
         title: Text(
           widget.user.name,
           style: TextStyle(
-            fontSize: 25.0,
+            fontSize: 20.0,
             fontWeight: FontWeight.bold
           ),
         ),
+        centerTitle: true,
         elevation: 0.0,
         actions: <Widget>[
           IconButton(
@@ -133,8 +134,12 @@ _buildMessage(Message message, bool isMe){
         onTap: () => FocusScope.of(context).unfocus(),
         child: Column(
           children: <Widget>[
+            SizedBox(
+              height: 10.0,
+            ),
             Expanded(
               child: Container(
+                padding: EdgeInsets.only(left: 10.0, right: 10.0),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(

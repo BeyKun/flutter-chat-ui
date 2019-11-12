@@ -6,7 +6,7 @@ class FavoriteContacts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 10.0),
+      padding: EdgeInsets.symmetric(vertical: 5.0),
       child: Column(
         children: <Widget>[
           Padding(
@@ -35,7 +35,7 @@ class FavoriteContacts extends StatelessWidget {
             ),
           ),
           Container(
-            height: 120.0,
+            height: 95.0,
             child: ListView.builder(
               padding: EdgeInsets.only(left: 10.0),
               scrollDirection: Axis.horizontal,
@@ -50,7 +50,7 @@ class FavoriteContacts extends StatelessWidget {
                     child: Column(
                       children: <Widget>[
                         CircleAvatar(
-                          radius: 35.0,
+                          radius: 25.0,
                           backgroundImage: AssetImage(favorites[index].imageUrl),
                         ),
                         SizedBox(
@@ -60,7 +60,7 @@ class FavoriteContacts extends StatelessWidget {
                           favorites[index].name,
                           style: TextStyle(
                             color: Colors.blueGrey,
-                            fontSize: 16.0,
+                            fontSize: 13.0,
                             fontWeight: FontWeight.w600
                           ),
                         ),

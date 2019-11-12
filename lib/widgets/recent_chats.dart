@@ -8,7 +8,7 @@ class RecentChats extends StatelessWidget {
     return Expanded(
       child: Container(
         margin: EdgeInsets.only(top: 5.0, bottom: 5.0),
-        padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+        padding: EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
         decoration: BoxDecoration(
            color: Colors.white,
            borderRadius: BorderRadius.only(
@@ -33,7 +33,7 @@ class RecentChats extends StatelessWidget {
                  margin: EdgeInsets.only(top: 5.0, bottom: 5.0, right: 5.0),
                  padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                  decoration: BoxDecoration(
-                   color: chat.unread ? Color(0xFFFFEFEE) : Colors.white,
+                   color: chat.unread ? Color(0xFFe4f1fe) : Colors.white,
                    borderRadius:BorderRadius.circular(15)
                  ),
                  child: Row(
@@ -42,7 +42,7 @@ class RecentChats extends StatelessWidget {
                      Row(
                        children: <Widget>[
                          CircleAvatar(
-                           radius: 35.0,
+                           radius: 25.0,
                            backgroundImage: AssetImage(chat.sender.imageUrl),
                          ),
                          SizedBox(width: 10.0),
@@ -64,7 +64,7 @@ class RecentChats extends StatelessWidget {
                                  chat.text,
                                  style: TextStyle(
                                    color: Colors.blueGrey,
-                                   fontSize: 15.0,
+                                   fontSize: 13.0,
                                    fontWeight: FontWeight.w600
                                  ),
                                  overflow: TextOverflow.ellipsis,
@@ -80,8 +80,8 @@ class RecentChats extends StatelessWidget {
                            chat.time,
                            style: TextStyle(
                              color: Colors.grey,
-                             fontSize: 13.5,
-                             fontWeight: FontWeight.bold
+                             fontSize: 10.0,
+                            //  fontWeight: FontWeight.bold
                            ),
                          ),
                          chat.unread ?
