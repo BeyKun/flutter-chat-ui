@@ -29,7 +29,7 @@ List<Message> chats = [
     sender: yui,
     time: '5:30 PM',
     text: "Halo kaka lagi apa?",
-    isLiked: false,
+    isLiked: true,
     unread: false
   ),
   Message(
@@ -68,7 +68,7 @@ List<Message> messages = [
     sender: yui,
     time: '5:30 PM',
     text: "Mamah kemana?",
-    isLiked: false,
+    isLiked: true,
     unread: false
   ),
   Message(
@@ -82,7 +82,7 @@ List<Message> messages = [
     sender: currentUser,
     time: '5:36 PM',
     text: "Mungkin nanti pada saatnya mamah pulang",
-    isLiked: false,
+    isLiked: true,
     unread: true
   ),
   Message(
