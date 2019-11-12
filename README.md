@@ -1,16 +1,9 @@
-# flutter_chat
 
-A new Flutter project.
+# Flutter Chat Tamplate
 
-## Getting Started
+    git clone https://github.com/BeyKun/flutter-chat-ui.git
 
-This project is a starting point for a Flutter application.
+![Home Screen Example](https://1.bp.blogspot.com/-W30pmUiC0Cc/Xcp-mTrmk5I/AAAAAAAAFAM/rnF6PdytWb8zIGAQ6RV0frsastoMASfmgCLcBGAsYHQ/s640/Annotation+2019-11-12+162553.png) 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ![Chat Screen Example](https://1.bp.blogspot.com/-7WdFs__r2Fw/Xcp-mlx8lBI/AAAAAAAAFAQ/3uU8gkgdApw3TQNfCFo538aXiCcF_BtIQCLcBGAsYHQ/s640/Annotation+2019-11-12+163519.png)
+ 
